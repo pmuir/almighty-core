@@ -7,7 +7,7 @@ image:https://godoc.org/github.com/almighty/almighty-core?status.png[GoDoc,link=
 
 === Prerequisites [[prerequisites]]
 
-You need to install `go` (>= v1.6) and `git` and `mercurial`.
+You need to install `go` (>= v1.5) and `git` and `mercurial`.
 
 ==== Check your Go version [[check-go-version]]
 
@@ -21,7 +21,7 @@ $ go version
 tool called goa and it doesn't play nice together with Go 1.5.*
 
 Ensure the environment variable `GO15VENDOREXPERIMENT`
-is set, for example by running `export GO15VENDOREXPERIMENT=1`.
+is set, for example by running `export GO15VENDOREXPERIMENT=1` in bash or `$env:GO15VENDOREXPERIMENT = 1` in PowerShell.
 In Go `1.6` it is enabled by default and in Go `1.7` it is always enabled
 without the ability to turn it off.
 
