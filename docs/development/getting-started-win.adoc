@@ -55,7 +55,7 @@ To get the code and build it, look here:
 1. The system displays the Mercurial Setup Wizard.
 1. On the *License Agreement* page select *I accept the agreement*.
 1. Click the *Next* button to get to the page *Select Destination Directory*.
-1. Enter C:\Users\YOURNAME\mercurial` as the destination directory and replace `YOURNAME` with your winows login name.
+1. Enter C:\Users\YOURNAME\mercurial` as the destination directory and replace `YOURNAME` with your winows login name. Note that if you have previously installed Mercurial, you won't be prompted for a destination directory. We recommend you uninstall Mercurial using the "Add or remove programs" Windows Settings page and re-run the installer.
 1. Click *Next* to get to the page *Select Start Menu Folder*.
 1. Click *Next* to get to the page *Ready to Install*.
 1. Click *Install* to get to the page *Information*.
