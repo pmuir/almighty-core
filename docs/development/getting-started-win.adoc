@@ -237,7 +237,7 @@ Solution::
 * Right click on the symbol and click on *Start as administrator*.
 * Repeat the `setx` command that wasn't working before and add the `/M` option. This will modify the system-wide environment variable which is why you need admin rights to do this. For example: `setx /M PATH "%PATH%;%GOPATH%\bin%"`.
 
-=== Evaluation
+=== Verify your setup
 
 IMPORTANT: Before you continue, *close any existing Windows Command Prompt* (or at least close the one you've opened while working through this document). This is important because otherwise the environment variables that we have modified won't be available.
 
