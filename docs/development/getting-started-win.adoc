@@ -318,7 +318,7 @@ git clone https://github.com/almighty/almighty-core.git %HOMEDRIVE\%HOMEPATH%\go
 +
 [source]
 ----
-cd %HOMEDRIVE\%HOMEPATH%\go\src\github.com\almighty\almighty-core
+cd %GOPATH%\src\github.com\almighty\almighty-core
 ----
 
 1. Fetch the Go packages that this project depends on by running
@@ -328,7 +328,7 @@ cd %HOMEDRIVE\%HOMEPATH%\go\src\github.com\almighty\almighty-core
 glide install
 ----
 +
-This command could take a while to finish. After that, the dependencies are stored in `%HOMEDRIVE\%HOMEPATH%\go\src\github.com\almighty\almighty-core\vendor`.
+This command could take a while to finish. After that, the dependencies are stored in `%GOPATH%\src\github.com\almighty\almighty-core\vendor`.
 
 [[build-from-source]]
 == Build from source
